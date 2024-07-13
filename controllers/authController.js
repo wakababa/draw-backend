@@ -7,6 +7,7 @@ const generateToken = (id) => {
     });
 };
 
+
 exports.registerUser = async (req, res) => {
     const { username, password } = req.body;
 
